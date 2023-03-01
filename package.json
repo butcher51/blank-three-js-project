@@ -1,0 +1,30 @@
+{
+  "name": "toss",
+  "version": "1.0.0",
+  "description": "Little game about tossing coins...",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack serve --open",
+    "build": "webpack build"
+  },
+  "keywords": [],
+  "author": "Gabor Meszaros",
+  "devDependencies": {
+    "copy-webpack-plugin": "^10.2.0",
+    "css-loader": "latest",
+    "html-webpack-plugin": "latest",
+    "progress-bar-webpack-plugin": "latest",
+    "style-loader": "latest",
+    "ts-loader": "latest",
+    "typescript": "latest",
+    "webpack": "latest",
+    "webpack-cli": "latest",
+    "webpack-dev-server": "latest"
+  },
+  "dependencies": {
+    "compression-webpack-plugin": "^9.0.0",
+    "express": "^4.17.1",
+    "three": "latest"
+  }
+}
