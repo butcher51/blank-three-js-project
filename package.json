@@ -1,8 +1,8 @@
 {
-  "name": "toss",
+  "name": "empty-three-ts-project",
   "version": "1.0.0",
-  "description": "Little game about tossing coins...",
-  "main": "index.js",
+  "description": "Empty three ts project...",
+  "main": "index.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack serve --open",
