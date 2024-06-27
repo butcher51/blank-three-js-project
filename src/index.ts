@@ -1,5 +1,6 @@
 import { Color, OrthographicCamera, Scene, WebGLRenderer } from 'three';
 import Stats from 'three/examples/jsm/libs/stats.module';
+import Cow from './objects/cow';
 import './style.css';
 import getCameraSize from './utils/getCameraSize';
 
@@ -70,6 +71,9 @@ class Game {
 
 
   private async initWorld() {
+
+    const cow = new Cow(1,1);
+    Game.scene.add(cow);
 
   }
 
